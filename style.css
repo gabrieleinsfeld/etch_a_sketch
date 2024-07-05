@@ -1,19 +1,18 @@
 #container{
     width: 960px;
     height:960px;
-    
     margin: auto;
     display: flex;
     flex-direction: column;
     border-top:solid 1px;
     border-right: solid 1px;
+    margin-bottom: 100px;
 }
 
 
 .row{
-    
     display: flex;
-    height: 100px;;
+    height: 100%;
     width: 100%;
 }
 
@@ -25,3 +24,22 @@
     height: 100%;
     width: 100%;
 }
+
+.column:hover{
+    background-color: black;
+}
+
+#new_grid{
+    margin: 20px auto;
+    display: flex;
+    
+    padding: 30px;
+    display: flex;
+    justify-content: center;
+    border-radius: 15px;
+    border: none;
+    color: white;
+    font-size: 24px;
+    background-color: grey;
+}
+
